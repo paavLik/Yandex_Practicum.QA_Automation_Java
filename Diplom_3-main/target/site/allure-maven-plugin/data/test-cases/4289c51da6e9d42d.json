@@ -1,0 +1,189 @@
+{
+  "uid" : "4289c51da6e9d42d",
+  "name" : "Проверка работы вкладки Начинки в разделе с ингредиентами",
+  "fullName" : "tests.HomePageValidationTests.testNavFillings[Браузер: firefox]",
+  "historyId" : "d65e149197d3b0fc6a1fe9332a2b34da",
+  "time" : {
+    "start" : 1717017744449,
+    "stop" : 1717017752265,
+    "duration" : 7816
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запуск браузера",
+      "time" : {
+        "start" : 1717017749172,
+        "stop" : 1717017750181,
+        "duration" : 1009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Нажатие на вкладку Начинки",
+      "time" : {
+        "start" : 1717017750182,
+        "stop" : 1717017751597,
+        "duration" : 1415
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получение ожидаемой позиции заголовка ингредиента",
+        "time" : {
+          "start" : 1717017750183,
+          "stop" : 1717017750268,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Нажатие на кнопку Начинок",
+        "time" : {
+          "start" : 1717017750269,
+          "stop" : 1717017751590,
+          "duration" : 1321
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание кликабельности кнопки",
+          "time" : {
+            "start" : 1717017750269,
+            "stop" : 1717017750818,
+            "duration" : 549
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание прокрутки до ингредиентов",
+          "time" : {
+            "start" : 1717017751063,
+            "stop" : 1717017751590,
+            "duration" : 527
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "navNumber",
+            "value" : "2"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Получение позиции начинок",
+        "time" : {
+          "start" : 1717017751591,
+          "stop" : 1717017751597,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Закрытие браузера",
+      "time" : {
+        "start" : 1717017751597,
+        "stop" : 1717017752263,
+        "duration" : 666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomePageValidationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavFillings[Браузер: firefox]"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты Главной Страницы"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Pavel.local"
+  }, {
+    "name" : "thread",
+    "value" : "10303@MacBook-Pro-Pavel.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4289c51da6e9d42d.json",
+  "parameterValues" : [ ]
+}

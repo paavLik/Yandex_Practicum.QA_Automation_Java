@@ -1,0 +1,258 @@
+{
+  "uid" : "ab70a268325af2c1",
+  "name" : "Успешная регистрация",
+  "fullName" : "tests.UserRegistrationTests.testSuccessfulRegistration[Браузер: firefox]",
+  "historyId" : "6fc491192ceb16d58c264319a5bc9b9c",
+  "time" : {
+    "start" : 1717017920703,
+    "stop" : 1717017937760,
+    "duration" : 17057
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запуск браузера и подготовка тестовых данных",
+      "time" : {
+        "start" : 1717017925604,
+        "stop" : 1717017928684,
+        "duration" : 3080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнение email",
+      "time" : {
+        "start" : 1717017928684,
+        "stop" : 1717017930924,
+        "duration" : 2240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "register_262b061c-4a0c-4576-8d56-7f680f94212f@example.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение имени",
+      "time" : {
+        "start" : 1717017930924,
+        "stop" : 1717017931487,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "registeruser"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение пароля",
+      "time" : {
+        "start" : 1717017931487,
+        "stop" : 1717017931734,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "registerpass_ed1278b3-5dae-4ee9-9a39-75a1b7f345da"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку регистрации",
+      "time" : {
+        "start" : 1717017931734,
+        "stop" : 1717017935833,
+        "duration" : 4099
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание кликабельности кнопки",
+        "time" : {
+          "start" : 1717017931734,
+          "stop" : 1717017931828,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание завершения отправки формы",
+      "time" : {
+        "start" : 1717017935834,
+        "stop" : 1717017937032,
+        "duration" : 1198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedTitle",
+        "value" : "Вход"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка перезагрузки формы регистрации",
+      "time" : {
+        "start" : 1717017937032,
+        "stop" : 1717017937047,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие браузера и очистка данных",
+      "time" : {
+        "start" : 1717017937048,
+        "stop" : 1717017937760,
+        "duration" : 712
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаление тестового пользователя",
+        "time" : {
+          "start" : 1717017937159,
+          "stop" : 1717017937760,
+          "duration" : 601
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4761af59e4ec5eaa",
+          "name" : "Request",
+          "source" : "4761af59e4ec5eaa.html",
+          "type" : "text/html",
+          "size" : 884
+        }, {
+          "uid" : "d2dcbf719a755f20",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "d2dcbf719a755f20.html",
+          "type" : "text/html",
+          "size" : 1789
+        }, {
+          "uid" : "9df7f5b412dac78",
+          "name" : "Request",
+          "source" : "9df7f5b412dac78.html",
+          "type" : "text/html",
+          "size" : 279
+        }, {
+          "uid" : "5947f52560cd62f5",
+          "name" : "HTTP/1.1 202 Accepted",
+          "source" : "5947f52560cd62f5.html",
+          "type" : "text/html",
+          "size" : 1269
+        } ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "register_262b061c-4a0c-4576-8d56-7f680f94212f@example.com"
+        }, {
+          "name" : "password",
+          "value" : "registerpass_ed1278b3-5dae-4ee9-9a39-75a1b7f345da"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserRegistrationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulRegistration[Браузер: firefox]"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты Регистрации Пользователя"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Pavel.local"
+  }, {
+    "name" : "thread",
+    "value" : "10303@MacBook-Pro-Pavel.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab70a268325af2c1.json",
+  "parameterValues" : [ ]
+}

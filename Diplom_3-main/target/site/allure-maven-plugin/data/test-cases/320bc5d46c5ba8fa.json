@@ -1,0 +1,393 @@
+{
+  "uid" : "320bc5d46c5ba8fa",
+  "name" : "Проверка выхода из личного кабинета по клику на кнопку Выйти",
+  "fullName" : "tests.UserProfilePageTests.testLogoutLinkNavigation[Браузер: chrome]",
+  "historyId" : "1d8367f6a427f168323a90624bd9c878",
+  "time" : {
+    "start" : 1717017962666,
+    "stop" : 1717017987105,
+    "duration" : 24439
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запуск браузера и подготовка тестовых данных",
+      "time" : {
+        "start" : 1717017967945,
+        "stop" : 1717017971463,
+        "duration" : 3518
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание пользователя",
+        "time" : {
+          "start" : 1717017971262,
+          "stop" : 1717017971463,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f3d763fdd8c07950",
+          "name" : "Request",
+          "source" : "f3d763fdd8c07950.html",
+          "type" : "text/html",
+          "size" : 924
+        }, {
+          "uid" : "5cedb1f32079168c",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "5cedb1f32079168c.html",
+          "type" : "text/html",
+          "size" : 1996
+        } ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "profileuser"
+        }, {
+          "name" : "email",
+          "value" : "profile_d8d8fbc9-a1ff-4798-aa7f-4a39df8dbff2@example.com"
+        }, {
+          "name" : "password",
+          "value" : "profilepass_82cc7fc0-d637-4919-8aa4-e096dcf6eb56"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в личный кабинет",
+      "time" : {
+        "start" : 1717017971464,
+        "stop" : 1717017985485,
+        "duration" : 14021
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание видимости формы авторизации",
+        "time" : {
+          "start" : 1717017972505,
+          "stop" : 1717017972856,
+          "duration" : 351
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Процесс авторизации пользователя",
+        "time" : {
+          "start" : 1717017972857,
+          "stop" : 1717017982134,
+          "duration" : 9277
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнение поля Email",
+          "time" : {
+            "start" : 1717017972857,
+            "stop" : 1717017974905,
+            "duration" : 2048
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "profile_d8d8fbc9-a1ff-4798-aa7f-4a39df8dbff2@example.com"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Заполнение поля Пароль",
+          "time" : {
+            "start" : 1717017974907,
+            "stop" : 1717017975754,
+            "duration" : 847
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "password",
+            "value" : "profilepass_82cc7fc0-d637-4919-8aa4-e096dcf6eb56"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Нажатие на кнопку Авторизации",
+          "time" : {
+            "start" : 1717017975755,
+            "stop" : 1717017980603,
+            "duration" : 4848
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание кликабельности кнопки",
+            "time" : {
+              "start" : 1717017975755,
+              "stop" : 1717017979151,
+              "duration" : 3396
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание завершения отправки формы",
+          "time" : {
+            "start" : 1717017980603,
+            "stop" : 1717017982134,
+            "duration" : 1531
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Нажатие на ссылку профиля",
+        "time" : {
+          "start" : 1717017982135,
+          "stop" : 1717017983086,
+          "duration" : 951
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание кликабельности кнопки",
+          "time" : {
+            "start" : 1717017982135,
+            "stop" : 1717017982309,
+            "duration" : 174
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание видимости формы авторизации",
+        "time" : {
+          "start" : 1717017983086,
+          "stop" : 1717017985485,
+          "duration" : 2399
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на ссылку выхода",
+      "time" : {
+        "start" : 1717017985485,
+        "stop" : 1717017985804,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание кликабельности кнопки",
+        "time" : {
+          "start" : 1717017985485,
+          "stop" : 1717017985508,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание видимости формы авторизации",
+      "time" : {
+        "start" : 1717017985804,
+        "stop" : 1717017986417,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие браузера и очистка данных",
+      "time" : {
+        "start" : 1717017986425,
+        "stop" : 1717017987104,
+        "duration" : 679
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаление тестового пользователя",
+        "time" : {
+          "start" : 1717017986532,
+          "stop" : 1717017987104,
+          "duration" : 572
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "26d5968c5b7c08b5",
+          "name" : "Request",
+          "source" : "26d5968c5b7c08b5.html",
+          "type" : "text/html",
+          "size" : 880
+        }, {
+          "uid" : "9dc7182807ec18a1",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "9dc7182807ec18a1.html",
+          "type" : "text/html",
+          "size" : 1781
+        }, {
+          "uid" : "44c478eb86b8984c",
+          "name" : "Request",
+          "source" : "44c478eb86b8984c.html",
+          "type" : "text/html",
+          "size" : 279
+        }, {
+          "uid" : "ab44acbce9ef0db7",
+          "name" : "HTTP/1.1 202 Accepted",
+          "source" : "ab44acbce9ef0db7.html",
+          "type" : "text/html",
+          "size" : 1273
+        } ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "profile_d8d8fbc9-a1ff-4798-aa7f-4a39df8dbff2@example.com"
+        }, {
+          "name" : "password",
+          "value" : "profilepass_82cc7fc0-d637-4919-8aa4-e096dcf6eb56"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserProfilePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogoutLinkNavigation[Браузер: chrome]"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты Личного Кабинета Пользователя"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Pavel.local"
+  }, {
+    "name" : "thread",
+    "value" : "10303@MacBook-Pro-Pavel.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "320bc5d46c5ba8fa.json",
+  "parameterValues" : [ ]
+}

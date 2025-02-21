@@ -1,0 +1,291 @@
+{
+  "uid" : "712e4c5666616706",
+  "name" : "Регистрация существующего пользователя",
+  "fullName" : "tests.UserRegistrationTests.testRegistrationOfExistingUser[Браузер: firefox]",
+  "historyId" : "7d77dfd4a78f72c0a6e7fab57528587",
+  "time" : {
+    "start" : 1717017937772,
+    "stop" : 1717017946941,
+    "duration" : 9169
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запуск браузера и подготовка тестовых данных",
+      "time" : {
+        "start" : 1717017941580,
+        "stop" : 1717017944206,
+        "duration" : 2626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1717017944207,
+        "stop" : 1717017944439,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39b119dda8f21cc9",
+        "name" : "Request",
+        "source" : "39b119dda8f21cc9.html",
+        "type" : "text/html",
+        "size" : 934
+      }, {
+        "uid" : "45c8c722225d86a2",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "45c8c722225d86a2.html",
+        "type" : "text/html",
+        "size" : 1986
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "userregister"
+      }, {
+        "name" : "email",
+        "value" : "newUser5dd46bed-d10a-445a-afdb-b2f998387691@example.com"
+      }, {
+        "name" : "password",
+        "value" : "userregisterpass_a175685a-6104-4ed2-97c5-fd9a0798a458"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение email",
+      "time" : {
+        "start" : 1717017944578,
+        "stop" : 1717017944760,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "newUser5dd46bed-d10a-445a-afdb-b2f998387691@example.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение имени",
+      "time" : {
+        "start" : 1717017944761,
+        "stop" : 1717017944795,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "userregister"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение пароля",
+      "time" : {
+        "start" : 1717017944795,
+        "stop" : 1717017944862,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "userregisterpass_a175685a-6104-4ed2-97c5-fd9a0798a458"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку регистрации",
+      "time" : {
+        "start" : 1717017944862,
+        "stop" : 1717017945648,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание кликабельности кнопки",
+        "time" : {
+          "start" : 1717017944862,
+          "stop" : 1717017945414,
+          "duration" : 552
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание видимости сообщения об ошибке Такой пользователь уже существует",
+      "time" : {
+        "start" : 1717017945648,
+        "stop" : 1717017945663,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение сообщения об ошибке Такой пользователь уже существует",
+      "time" : {
+        "start" : 1717017945663,
+        "stop" : 1717017945680,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие браузера и очистка данных",
+      "time" : {
+        "start" : 1717017945680,
+        "stop" : 1717017946941,
+        "duration" : 1261
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаление тестового пользователя",
+        "time" : {
+          "start" : 1717017946322,
+          "stop" : 1717017946941,
+          "duration" : 619
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f10d9384bbdb5e66",
+          "name" : "Request",
+          "source" : "f10d9384bbdb5e66.html",
+          "type" : "text/html",
+          "size" : 888
+        }, {
+          "uid" : "e0b53974c28a8438",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "e0b53974c28a8438.html",
+          "type" : "text/html",
+          "size" : 1779
+        }, {
+          "uid" : "9d389b52a7b364b1",
+          "name" : "Request",
+          "source" : "9d389b52a7b364b1.html",
+          "type" : "text/html",
+          "size" : 279
+        }, {
+          "uid" : "6e0a87621232c31c",
+          "name" : "HTTP/1.1 202 Accepted",
+          "source" : "6e0a87621232c31c.html",
+          "type" : "text/html",
+          "size" : 1271
+        } ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "newUser5dd46bed-d10a-445a-afdb-b2f998387691@example.com"
+        }, {
+          "name" : "password",
+          "value" : "userregisterpass_a175685a-6104-4ed2-97c5-fd9a0798a458"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserRegistrationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegistrationOfExistingUser[Браузер: firefox]"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты Регистрации Пользователя"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Pavel.local"
+  }, {
+    "name" : "thread",
+    "value" : "10303@MacBook-Pro-Pavel.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "712e4c5666616706.json",
+  "parameterValues" : [ ]
+}

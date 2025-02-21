@@ -1,0 +1,333 @@
+{
+  "uid" : "272149fd099ddf41",
+  "name" : "Вход через кнопку на главной странице",
+  "fullName" : "tests.UserAuthorizationTests.testAuthorizationFromMainPage[Браузер: firefox]",
+  "historyId" : "79b4c8bb49857b1650e9adcf309a2328",
+  "time" : {
+    "start" : 1717017872474,
+    "stop" : 1717017880772,
+    "duration" : 8298
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запуск браузера и подготовка тестовых данных",
+      "time" : {
+        "start" : 1717017876226,
+        "stop" : 1717017878679,
+        "duration" : 2453
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание пользователя",
+        "time" : {
+          "start" : 1717017878382,
+          "stop" : 1717017878679,
+          "duration" : 297
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9858a37b87d581ef",
+          "name" : "Request",
+          "source" : "9858a37b87d581ef.html",
+          "type" : "text/html",
+          "size" : 906
+        }, {
+          "uid" : "25395413e206d0c",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "25395413e206d0c.html",
+          "type" : "text/html",
+          "size" : 1990
+        } ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "testuser"
+        }, {
+          "name" : "email",
+          "value" : "test_b17c4112-bac6-46a7-9b9f-0e6dd06a9a4d@example.com"
+        }, {
+          "name" : "password",
+          "value" : "testpass_698d65bc-a85d-4299-9e90-75c0f4d57dca"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку авторизации",
+      "time" : {
+        "start" : 1717017878680,
+        "stop" : 1717017878988,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание кликабельности кнопки",
+        "time" : {
+          "start" : 1717017878680,
+          "stop" : 1717017878715,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание видимости формы авторизации",
+      "time" : {
+        "start" : 1717017878989,
+        "stop" : 1717017879015,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Процесс авторизации пользователя",
+      "time" : {
+        "start" : 1717017879016,
+        "stop" : 1717017879450,
+        "duration" : 434
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнение поля Email",
+        "time" : {
+          "start" : 1717017879016,
+          "stop" : 1717017879136,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "test_b17c4112-bac6-46a7-9b9f-0e6dd06a9a4d@example.com"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение поля Пароль",
+        "time" : {
+          "start" : 1717017879136,
+          "stop" : 1717017879184,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "testpass_698d65bc-a85d-4299-9e90-75c0f4d57dca"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Нажатие на кнопку Авторизации",
+        "time" : {
+          "start" : 1717017879185,
+          "stop" : 1717017879427,
+          "duration" : 242
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание кликабельности кнопки",
+          "time" : {
+            "start" : 1717017879185,
+            "stop" : 1717017879197,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание завершения отправки формы",
+        "time" : {
+          "start" : 1717017879428,
+          "stop" : 1717017879450,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение текста кнопки корзины",
+      "time" : {
+        "start" : 1717017879450,
+        "stop" : 1717017879463,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Закрытие браузера и очистка данных",
+      "time" : {
+        "start" : 1717017879463,
+        "stop" : 1717017880770,
+        "duration" : 1307
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаление тестового пользователя",
+        "time" : {
+          "start" : 1717017880110,
+          "stop" : 1717017880770,
+          "duration" : 660
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fae423534120346",
+          "name" : "Request",
+          "source" : "fae423534120346.html",
+          "type" : "text/html",
+          "size" : 868
+        }, {
+          "uid" : "4e16f797b6f9483d",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "4e16f797b6f9483d.html",
+          "type" : "text/html",
+          "size" : 1767
+        }, {
+          "uid" : "ba24d1549d598792",
+          "name" : "Request",
+          "source" : "ba24d1549d598792.html",
+          "type" : "text/html",
+          "size" : 279
+        }, {
+          "uid" : "df11f8217b666055",
+          "name" : "HTTP/1.1 202 Accepted",
+          "source" : "df11f8217b666055.html",
+          "type" : "text/html",
+          "size" : 1269
+        } ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "test_b17c4112-bac6-46a7-9b9f-0e6dd06a9a4d@example.com"
+        }, {
+          "name" : "password",
+          "value" : "testpass_698d65bc-a85d-4299-9e90-75c0f4d57dca"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserAuthorizationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAuthorizationFromMainPage[Браузер: firefox]"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты Авторизации Пользователя"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Pavel.local"
+  }, {
+    "name" : "thread",
+    "value" : "10303@MacBook-Pro-Pavel.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "272149fd099ddf41.json",
+  "parameterValues" : [ ]
+}

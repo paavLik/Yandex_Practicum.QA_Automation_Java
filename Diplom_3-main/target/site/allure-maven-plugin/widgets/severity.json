@@ -1,0 +1,281 @@
+[ {
+  "uid" : "36cf86af4ebb9ef2",
+  "name" : "Проверка перехода из личного кабинета по клику на логотип Stellar Burgers",
+  "time" : {
+    "start" : 1717018034511,
+    "stop" : 1717018057725,
+    "duration" : 23214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da3f656150d18122",
+  "name" : "Вход через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1717017794207,
+    "stop" : 1717017814729,
+    "duration" : 20522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53277dd8ef9de1f7",
+  "name" : "Проверка перехода из личного кабинета по клику на логотип Stellar Burgers",
+  "time" : {
+    "start" : 1717017955035,
+    "stop" : 1717017962645,
+    "duration" : 7610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1adebf7664ea722",
+  "name" : "Проверка выхода из личного кабинета по клику на кнопку Выйти",
+  "time" : {
+    "start" : 1717018057730,
+    "stop" : 1717018066103,
+    "duration" : 8373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1ed53901b35e1ca",
+  "name" : "Проверка перехода по клику на «Личный кабинет»",
+  "time" : {
+    "start" : 1717018011600,
+    "stop" : 1717018034505,
+    "duration" : 22905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26869ee4781df7a6",
+  "name" : "Проверка перехода из личного кабинета по клику на «Конструктор»",
+  "time" : {
+    "start" : 1717018066107,
+    "stop" : 1717018075264,
+    "duration" : 9157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2c38db8003660bc",
+  "name" : "Проверка работы вкладки Соусы в разделе с ингредиентами",
+  "time" : {
+    "start" : 1717017694853,
+    "stop" : 1717017709555,
+    "duration" : 14702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "320bc5d46c5ba8fa",
+  "name" : "Проверка выхода из личного кабинета по клику на кнопку Выйти",
+  "time" : {
+    "start" : 1717017962666,
+    "stop" : 1717017987105,
+    "duration" : 24439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27e65a482b045022",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1717017856469,
+    "stop" : 1717017864831,
+    "duration" : 8362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "493302059dcb48a0",
+  "name" : "Регистрация с коротким паролем",
+  "time" : {
+    "start" : 1717017946954,
+    "stop" : 1717017954973,
+    "duration" : 8019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a44afbf1dae702e9",
+  "name" : "Проверка перехода по клику на «Личный кабинет»",
+  "time" : {
+    "start" : 1717018075275,
+    "stop" : 1717018082518,
+    "duration" : 7243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "712e4c5666616706",
+  "name" : "Регистрация существующего пользователя",
+  "time" : {
+    "start" : 1717017937772,
+    "stop" : 1717017946941,
+    "duration" : 9169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46ccf9488c080f87",
+  "name" : "Успешная регистрация",
+  "time" : {
+    "start" : 1717017880803,
+    "stop" : 1717017886982,
+    "duration" : 6179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e332ab1871571b3",
+  "name" : "Вход через кнопку на главной странице",
+  "time" : {
+    "start" : 1717017814736,
+    "stop" : 1717017835087,
+    "duration" : 20351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52e63304377aa5e",
+  "name" : "Проверка работы вкладки Начинки в разделе с ингредиентами",
+  "time" : {
+    "start" : 1717017709694,
+    "stop" : 1717017720770,
+    "duration" : 11076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44e7a72f2460e586",
+  "name" : "Проверка работы вкладки Булки в разделе с ингредиентами",
+  "time" : {
+    "start" : 1717017720788,
+    "stop" : 1717017733348,
+    "duration" : 12560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a292541c6497f70d",
+  "name" : "Проверка перехода из личного кабинета по клику на «Конструктор»",
+  "time" : {
+    "start" : 1717017987114,
+    "stop" : 1717018011597,
+    "duration" : 24483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "513a185426518f6d",
+  "name" : "Вход через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1717017864842,
+    "stop" : 1717017872464,
+    "duration" : 7622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe93b5304e35ce0d",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1717017835100,
+    "stop" : 1717017856461,
+    "duration" : 21361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "272149fd099ddf41",
+  "name" : "Вход через кнопку на главной странице",
+  "time" : {
+    "start" : 1717017872474,
+    "stop" : 1717017880772,
+    "duration" : 8298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec7c3aa92e05bd81",
+  "name" : "Проверка работы вкладки Булки в разделе с ингредиентами",
+  "time" : {
+    "start" : 1717017752274,
+    "stop" : 1717017759382,
+    "duration" : 7108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c8dffbd6a3b5dcd",
+  "name" : "Проверка работы вкладки Соусы в разделе с ингредиентами",
+  "time" : {
+    "start" : 1717017733363,
+    "stop" : 1717017744442,
+    "duration" : 11079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50b9e5d50d626f50",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1717017772894,
+    "stop" : 1717017794199,
+    "duration" : 21305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f853402fc85d8d69",
+  "name" : "Регистрация существующего пользователя",
+  "time" : {
+    "start" : 1717017887008,
+    "stop" : 1717017903891,
+    "duration" : 16883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dd9c841f60e8b02",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1717017759484,
+    "stop" : 1717017772880,
+    "duration" : 13396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ae0f94b724b3d93",
+  "name" : "Регистрация с коротким паролем",
+  "time" : {
+    "start" : 1717017903915,
+    "stop" : 1717017920699,
+    "duration" : 16784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab70a268325af2c1",
+  "name" : "Успешная регистрация",
+  "time" : {
+    "start" : 1717017920703,
+    "stop" : 1717017937760,
+    "duration" : 17057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4289c51da6e9d42d",
+  "name" : "Проверка работы вкладки Начинки в разделе с ингредиентами",
+  "time" : {
+    "start" : 1717017744449,
+    "stop" : 1717017752265,
+    "duration" : 7816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
